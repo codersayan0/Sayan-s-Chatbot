@@ -7,7 +7,7 @@ import tempfile
 from gtts import gTTS
 
 # 🔑 Gemini API setup
-genai.configure(api_key="AIzaSyC4tRGf_lMff2HQHZGIF68eITV-CvjKVP0")  # Replace with your key
+genai.configure(api_key="Enter your Gemini API key here")  # Replace with your key
 model = genai.GenerativeModel("gemini-1.5-flash")
 # 🧾 Store chat history
 chat_log = []
